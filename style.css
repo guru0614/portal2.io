@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins,sans-serif';
+}
+
+::selection{
+    color: #000;
+    background-color: #fff;
+
+}
+nav{
+    position: fixed;
+    background-color:blanchedalmond;
+    width: 100%;
+    padding: 1px 0;
+    z-index: 12;
+}
+nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+}
+.menu .logo a{
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+.menu ul{
+    display: inline-flex;
+}
+.menu ul li{
+    list-style-type: none;
+    margin-left: 9px;
+}
+.menu ul li:first-child{
+    margin-left: 0px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(176, 112, 29);
+    font-size: 18px;
+    font-weight: 500;
+    padding:9px 15px;
+    border-radius: 5px;
+}
+.menu ul li a:hover{
+    background: gray;
+    color: whitesmoke;
+}
+.image{
+    background: url(https://img.freepik.com/premium-vector/black-yellow-grunge-modern-youtube-thumbnail-background_562076-122.jpg?w=360);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;     
+    background-position: center;
+    position: relative;
+}
+.image::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+
+}
+.center{
+    
+    position: absolute;
+    top: 52%;
+    left:50%;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    transform: translate(-50%,-50%);
+
+}
+.center .title{
+    color: antiquewhite;
+    font-size: 55px;
+    font-weight: 600;
+
+}
+.center .sub_title{
+    color: aliceblue;
+    font-size: 52px;
+    font-weight: 600;
+
+}
+.center .btns{
+    margin-top: 20px;
+}
+.center .btns button{
+    height: 55px;
+    width:170px;
+    border-radius: 5px;
+    border:none;
+    margin:0 10px;
+    border:2px solid aliceblue;
+    font-size:20px;
+    font-weight: 500;
+    padding: 0 10px;
+    outline: none;
+    
+}
+.center .btns button:first-child{
+    color: aliceblue;
+    background: none;
+}
+.center .btns button:first-child:hover{
+    color: black;
+    background: aliceblue;
+
+}
+.center .btns button:last-child{
+ color: #000;
+ background: aliceblue;
+}
+.card-group{
+    display: flex;
+}
+.card-group1{
+    display: flex;
+   
+    
+}
+.card-img-top{
+    width: 350px;
+    height: 280px;
+    border-radius: 6px;
+}
+.card-img-top2{
+    width: 350px;
+    height: 280px;
+    border-radius: 6px;
+     
+}
+.card{
+    padding: 78px;
+    margin-top: 0px;
+}
+.main-01{
+   
+    background-color:rgb(202, 199, 195);
+}
+
+
+.contact {
+    background: blanchedalmond;
+    position: relative;
+    height: 92vh;
+    height: 100vh;
+  }
+  
+  .contact-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .contact-content h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #470d85;
+    padding-bottom: 0.5rem;
+  }
+  
+  .contact-content .mail {
+    color: #404011;
+    padding-bottom: 0.2rem;
+    font-size: 1rem;
+    padding-left:10px ;
+  }
+  
+  .contact-content .links {
+    color: #146154;
+    padding: 0.5rem;
+    padding-bottom: 1.8rem;
+    font-size: 1rem;
+    padding-left: 20px;
+  }
+  
+  .contact-content a {
+    text-decoration: none;
+    color: #163933;
+    padding: 0.5rem;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .contact-content a:hover {
+    color: #a80cb6;
+  }
+  
+  
+  
+
+
+
+ 
